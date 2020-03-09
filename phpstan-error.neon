@@ -1,0 +1,18 @@
+parameters:
+    level: 8
+    paths:
+    - src
+
+services:
+
+
+-
+    class: Extension\AssertNotNullExtension
+    tags:
+    - phpstan.typeSpecifier.staticMethodTypeSpecifyingExtension
+
+-
+    class: Extension\AssertNotNull2Extension
+    tags:
+    - phpstan.typeSpecifier.staticMethodTypeSpecifyingExtension
+
